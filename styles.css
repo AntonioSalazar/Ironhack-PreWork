@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.roboto{
+  font-family: roboto;
+  font-size: 13px;
+  line-height: 2.5;
+  font-weight: bold;
+  color: white;
+}
+
+#nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 5px;
+  height: 50px;
+  
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin-right: 220px;
+}
+
+.top-links li {
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.top-left{
+  margin: 8px 0px 0px 80px;
+}
+
+#npm-logo{
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  padding: 25px  0px 30px 40px;
+}
+
+.header{
+  background-image: url(images/city-scape.svg); 
+  width: 100%;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
+}
+
+#second-div-header{
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 450px;
+}
+
+#second-div-header input{
+  background: rgb(240, 146, 51);
+  color: white;
+  border: none;
+  width: 250px;
+  height: 30px;
+  margin-top:  15px;
+  border-radius: 10px;
+}
+
+#npm-logo input {
+  border-color: gray;
+  background-color: rgb(31, 82, 111);
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  padding: 12px 20px;
+}
+
+#npm-logo p {
+  color: white;
+}
+
+.section-1-image{
+  width: 390px;
+  padding: 100px 0px 50px 150px;
+}
+
+.section-1{
+  margin: 0 auto;
+  background: rgb(39, 53, 71);
+  display: flex;
+}
+
+.content-section-1{
+  padding: 100px 0px 50px 50px;
+}
+
+.section1-button{
+  background-color: rgb(203, 56, 55);
+  color: white;
+  border-radius: 45px;
+  border: none;
+  height: 30px;
+  width: 120px;
+}
+
+.section-2{
+  background-image: url(images/forklift.svg);
+  background-size: cover;
+}
+
+.heading{
+  color: white;
+  font-family: roboto;
+  padding: 100px 0px 0px 0px;
+}
+
+.section-2 p{
+  color: white;
+  font-family: roboto;
+  width: 300px;
+  padding: 50px 0px 0px 350px; 
+}
+
+.section2-button{
+  margin: 50px 0px 60px 350px;
+  background-color: rgb(49, 68, 88);
+  color: white;
+  border-radius: 45px;
+  border-style: none;
+  width: 120px;
+  height: 30px;
+}
+
+.section3-text h3{
+  color: rgb(83, 88, 98);
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.section3-text p{
+  color: rgb(135, 145, 156);
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section3-logos{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  margin: 20px 20px 150px 50px;
+}
+
+.section3-logos h4{
+  font-family: roboto;
+}
+
+.individual-logo{
+  width: 300px;
+}
+
+.logos-text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.logos-text p{
+  width: 200px;
+  margin-top: 20px;
+  font-family: roboto;
+}
+
+.logos-text h4{
+  padding-left: 50px;
+}
+
+.heading-1{
+  margin-left: 250px;
+}
